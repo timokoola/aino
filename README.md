@@ -27,5 +27,7 @@ One image always arrives from one incoming channels and is rerouted possibly thr
 
 - Project is pre-alpha as of 2013 10 30
 
+## License
 
+Software is license under Apache License as described in [License](LICENSE)
 
