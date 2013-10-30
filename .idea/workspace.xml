@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d210980d-5a12-4bc2-b423-74a80e7991de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/aino.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ainosite/templates/base_template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ainosite/ainosite/settings.py" afterPath="$PROJECT_DIR$/ainosite/ainosite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ainosite/ainosite/urls.py" afterPath="$PROJECT_DIR$/ainosite/ainosite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="aino.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +14,7 @@
     <file path="/views.py" changelist="d210980d-5a12-4bc2-b423-74a80e7991de" time="1383167167390" ignored="false" />
     <file path="/index.html" changelist="d210980d-5a12-4bc2-b423-74a80e7991de" time="1383166687248" ignored="false" />
     <file path="/urls.py" changelist="d210980d-5a12-4bc2-b423-74a80e7991de" time="1383165645953" ignored="false" />
+    <file path="/README.md" changelist="d210980d-5a12-4bc2-b423-74a80e7991de" time="1383167840630" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +58,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ainosite/frontpage/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="350" selection-end="350" vertical-scroll-proportion="0.3180147">
+            <state line="33" column="5" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#26#73#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="78" selection-start="918" selection-end="918" vertical-scroll-proportion="0.42372882">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +131,7 @@
         <option value="$PROJECT_DIR$/ainosite/ainosite/urls.py" />
         <option value="$PROJECT_DIR$/ainosite/templates/index.html" />
         <option value="$PROJECT_DIR$/ainosite/frontpage/views.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -497,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -576,10 +570,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ainosite/frontpage/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="350" selection-end="350" vertical-scroll-proportion="0.3180147">
+        <state line="33" column="5" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#26#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="78" selection-start="918" selection-end="918" vertical-scroll-proportion="0.42372882">
+          <folding />
         </state>
       </provider>
     </entry>

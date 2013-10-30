@@ -13,6 +13,7 @@ Aino environment is built on top of following concepts
 - Outgoing channels such as storing to external file server, image sharing service or an individual computer's hard drive
 - Flags that are attached to incoming channel message and are used to reroute images to outgoing channels
 - Default routes are preinstalled routes by server owner
+- Service queue built using  Redis that dispatches emails to and from channels
 
 One image always arrives from one incoming channels and is rerouted possibly through other incoming channels to its final destinations. Same image can end up in multiple destinations depending on flags and default routes.
 
