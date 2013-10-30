@@ -1,6 +1,6 @@
 # Django settings for ainosite project.
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -83,7 +83,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'or__(a*w$c!@h(9x&#9bn@8^o^%=kyy3^6bl5ziil4ap7b(4p^'
+SECRET_KEY = 'generateoneforproductionanddevelopment'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -111,6 +111,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+
 )
 
 INSTALLED_APPS = (
@@ -122,6 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
+    'frontpage'
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
@@ -156,3 +158,8 @@ LOGGING = {
         },
     }
 }
+
+try:
+   from local_settings import *
+except ImportError:
+    pass
